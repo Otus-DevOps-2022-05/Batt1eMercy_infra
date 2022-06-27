@@ -1,6 +1,6 @@
 {
-    "service_account_key_file": "path",
-    "folder_id": "path",
+    "service_account_key_file": "key.json",
+    "folder_id": "dsada6das7",
     "source_image_family": "ubuntu-1604-lts",
     "image_family": "reddit-base"
 }
