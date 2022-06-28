@@ -37,3 +37,10 @@ lts,size=10GB \
  --metadata serial-port-enable=1 \
  --ssh-key ~/.ssh/appuser.pub
  ```
+
+## Модели управления инфраструктурой. Подготовка образов с помощью Packer 
+  
+Запуск сборки образа:  
+```
+packer build -var-file ./variables.json ./ubuntu16.json
+```
