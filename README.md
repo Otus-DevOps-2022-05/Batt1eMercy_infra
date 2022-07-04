@@ -44,3 +44,10 @@ lts,size=10GB \
 ```
 packer build -var-file ./variables.json ./ubuntu16.json
 ```
+
+## Знакомство с Terraform
+  
+Запуск:  
+```
+terraform apply
+```
