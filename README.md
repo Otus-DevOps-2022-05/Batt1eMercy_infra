@@ -51,3 +51,11 @@ packer build -var-file ./variables.json ./ubuntu16.json
 ```
 terraform apply
 ```
+
+## Принципы организации инфраструктурного кода и работа над инфраструктурой в команде на примере Terraform 
+Запуск:  
+```
+packer build ./db.json  
+packer build ./app.json  
+terraform apply
+```
