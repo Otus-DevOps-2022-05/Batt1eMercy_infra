@@ -59,3 +59,9 @@ packer build ./db.json
 packer build ./app.json  
 terraform apply
 ```
+
+## Управление конфигурацией. Знакомство с Ansible
+Для работы ansible.cfg необходимо эеспортировать переменную:  
+```
+ANSIBLE_CONFIG=/mnt/c/Users/PC/Desktop/repos/Batt1eMercy_infra/ansible/ansible.cfg
+```
