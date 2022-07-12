@@ -4,5 +4,4 @@
 *.tfstate.backup
 *.tfvars
 .terraform/
-/terraform/prod/.terraform.lock.hcl
-/terraform/stage/.terraform.lock.hcl
+*.lock.hcl
