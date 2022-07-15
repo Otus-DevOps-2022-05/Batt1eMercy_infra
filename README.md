@@ -65,3 +65,12 @@ terraform apply
 ```
 ANSIBLE_CONFIG=/mnt/c/Users/PC/Desktop/repos/Batt1eMercy_infra/ansible/ansible.cfg
 ```
+
+## Продолжение знакомства с Ansible: templates, handlers, dynamic inventory, vault, tags  
+Для работы ansible.cfg необходимо эеспортировать переменную:  
+```
+ANSIBLE_CONFIG=/mnt/c/Users/PC/Desktop/repos/Batt1eMercy_infra/ansible/ansible.cfg
+```  
+Запуск:  
+* указать хосты в inventory.yml и в плейбуке.  
+* ``` ansible-playbook site.yml ```
