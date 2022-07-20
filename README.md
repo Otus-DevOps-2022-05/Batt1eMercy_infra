@@ -74,3 +74,12 @@ ANSIBLE_CONFIG=/mnt/c/Users/PC/Desktop/repos/Batt1eMercy_infra/ansible/ansible.c
 Запуск:  
 * указать хосты в inventory.yml и в плейбуке.  
 * ``` ansible-playbook site.yml ```
+
+## Ansible роли, управление настройками нескольких окружений и best practices
+Для работы ansible.cfg необходимо эеспортировать переменную:  
+```
+ANSIBLE_CONFIG=/mnt/c/Users/PC/Desktop/repos/Batt1eMercy_infra/ansible/ansible.cfg
+```  
+Запуск:  
+* указать хосты в inventory.yml и в плейбуке.  
+* ``` ansible-playbook site.yml `

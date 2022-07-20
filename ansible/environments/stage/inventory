@@ -1,0 +1,5 @@
+[app]
+reddit-app-stage ansible_host=62.84.115.85
+
+[db]
+reddit-db-stage ansible_host=51.250.92.142
