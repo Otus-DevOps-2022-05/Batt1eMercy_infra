@@ -6,3 +6,5 @@
 .terraform/
 *.lock.hcl
 *.retry
+jdauphant.nginx
+vault.key
