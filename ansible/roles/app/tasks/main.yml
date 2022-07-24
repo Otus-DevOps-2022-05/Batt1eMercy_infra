@@ -18,7 +18,7 @@
     group: ubuntu
 
 - name: enable puma
-  systemd: 
-    name: puma 
+  systemd:
+    name: puma
     enabled: yes
     daemon_reload: true
