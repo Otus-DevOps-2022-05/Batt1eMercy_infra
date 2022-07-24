@@ -22,4 +22,3 @@
     name: puma 
     enabled: yes
     daemon_reload: true
-    
