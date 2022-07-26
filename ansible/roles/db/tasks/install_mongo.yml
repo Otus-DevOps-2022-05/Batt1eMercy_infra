@@ -1,0 +1,14 @@
+---
+- name: Update repositories cache and install mongodb
+  apt:
+      name: mongodb
+      update_cache: yes
+  tags: install
+
+- name: Enable and start mongodb
+  systemd:
+    name: mongodb
+    enabled: yes
+    state: started
+    daemon_reload: true
+  tags: install
