@@ -61,13 +61,13 @@ terraform apply
 ```
 
 ## Управление конфигурацией. Знакомство с Ansible
-Для работы ansible.cfg необходимо эеспортировать переменную:  
+Для работы ansible.cfg необходимо экспортировать переменную:  
 ```
 ANSIBLE_CONFIG=/mnt/c/Users/PC/Desktop/repos/Batt1eMercy_infra/ansible/ansible.cfg
 ```
 
 ## Продолжение знакомства с Ansible: templates, handlers, dynamic inventory, vault, tags  
-Для работы ansible.cfg необходимо эеспортировать переменную:  
+Для работы ansible.cfg необходимо экспортировать переменную:  
 ```
 ANSIBLE_CONFIG=/mnt/c/Users/PC/Desktop/repos/Batt1eMercy_infra/ansible/ansible.cfg
 ```  
@@ -76,10 +76,16 @@ ANSIBLE_CONFIG=/mnt/c/Users/PC/Desktop/repos/Batt1eMercy_infra/ansible/ansible.c
 * ``` ansible-playbook site.yml ```
 
 ## Ansible роли, управление настройками нескольких окружений и best practices
-Для работы ansible.cfg необходимо эеспортировать переменную:  
+Для работы ansible.cfg необходимо экспортировать переменную:  
 ```
 ANSIBLE_CONFIG=/mnt/c/Users/PC/Desktop/repos/Batt1eMercy_infra/ansible/ansible.cfg
 ```  
 Запуск:  
 * указать хосты в inventory.yml и в плейбуке.  
 * ``` ansible-playbook site.yml `
+
+## Локальная разработка Ansible ролей с Vagrant. Тестирование конфигурации  
+Установить переменную окружения в Win:  
+```
+VAGRANT_PREFER_SYSTEM_BIN=0  
+```

@@ -1,13 +1,7 @@
 ---
-- name: Install ruby
+- name: Install app
   hosts: all
   become: true
-  tasks:
-    - name: Update repositories cache and install ruby packages
-      apt:
-          name: "{{ item }}"
-          update_cache: yes
-      with_items:
-        - ruby-full
-        - ruby-bundler
-        - build-essential
+
+  roles:
+    - app
